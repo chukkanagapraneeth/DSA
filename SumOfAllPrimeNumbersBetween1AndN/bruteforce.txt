@@ -1,0 +1,47 @@
+﻿namespace SumOfAllPrimeNumbersBetween1AndN
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int N = 5;
+            Solution solution = new Solution();
+            Console.WriteLine(solution.prime_Sum(N));
+        }
+        class Solution
+        {
+            //Complete this function
+            //Function to calculate the sum of prime numbers up to the given number.
+            public long prime_Sum(int n)
+            {
+                int res = 0;
+
+                for(int i = 2; i <= n; i++)
+                {
+                    if (is_prime(i))
+                    {
+                        res += i;
+                    }
+                }
+                return res;
+            }
+
+            public static bool is_prime(int n)
+            {
+                int count = 1;
+                for(int i= 2; i<=n; i++)
+                {
+                    if(n%i == 0)
+                    {
+                        count++;
+                    }
+                    if(count > 2)
+                    {
+                        return false;
+                    }
+                }
+                return true;
+            }
+        }
+    }
+}

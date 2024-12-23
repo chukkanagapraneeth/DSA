@@ -1,0 +1,43 @@
+﻿using System.Linq;
+
+namespace ArrayDuplicates
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] nums = [3 ,1 ,0 ,4 ,2, 3, 1];
+            Solution solution = new Solution();
+            (solution.findDuplicates(nums)).ForEach(x => Console.WriteLine(x));
+        }
+        class Solution
+        {
+            public List<int> findDuplicates(int[] arr)
+            {
+                Dictionary<int, int> dic = new Dictionary<int, int>();
+
+                List<int> res = new List<int>();
+
+                for (int i = 0; i <= arr.Length - 1; i++)
+                {
+                    if (!dic.ContainsKey(arr[i]))
+                    {
+                        dic[arr[i]] = 0;
+                    }
+                    dic[arr[i]] += 1;
+                }
+
+                foreach (int key in dic.Keys)
+                {
+                    if (dic[key] != 1)
+                    {
+                        res.Add(key);
+                    }
+                }
+
+                res.Sort();
+                return res;
+            }
+        }
+    }
+}
