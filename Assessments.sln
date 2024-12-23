@@ -5,39 +5,39 @@ VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1", "Week1", "{C597D9AD-D657-4C68-AC4D-6D8E432279DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountSqaures", "CountSqaures\CountSqaures.csproj", "{BBBD9AD0-D2D1-477D-BD17-C32E613BA37D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountSqaures", "Week1-Basics\CountSqaures\CountSqaures.csproj", "{BBBD9AD0-D2D1-477D-BD17-C32E613BA37D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountDigits", "CountDigits\CountDigits.csproj", "{F1A1A146-36B8-4B5D-8202-DFC2F97C09C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountDigits", "Week1-Basics\CountDigits\CountDigits.csproj", "{F1A1A146-36B8-4B5D-8202-DFC2F97C09C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArmstrongNumbers", "ArmstrongNumbers\ArmstrongNumbers.csproj", "{47856F97-57D8-4D03-9126-EF56966225D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArmstrongNumbers", "Week1-Basics\ArmstrongNumbers\ArmstrongNumbers.csproj", "{47856F97-57D8-4D03-9126-EF56966225D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversingTheequation", "ReversingTheequation\ReversingTheequation.csproj", "{FF74C32A-3678-4CB9-8DBB-9028114B6573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversingTheequation", "Week1-Basics\ReversingTheequation\ReversingTheequation.csproj", "{FF74C32A-3678-4CB9-8DBB-9028114B6573}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllDivisorsOfANumber", "AllDivisorsOfANumber\AllDivisorsOfANumber.csproj", "{ECC4E464-592D-4D2E-BF38-5B0B0A0460C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllDivisorsOfANumber", "Week1-Basics\AllDivisorsOfANumber\AllDivisorsOfANumber.csproj", "{ECC4E464-592D-4D2E-BF38-5B0B0A0460C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumofDigitisPallindromeorNot", "SumofDigitisPallindromeorNot\SumofDigitisPallindromeorNot.csproj", "{9A6B5CB0-EFE9-4B59-A2A3-6E2FBE241C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumofDigitisPallindromeorNot", "Week1-Basics\SumofDigitisPallindromeorNot\SumofDigitisPallindromeorNot.csproj", "{9A6B5CB0-EFE9-4B59-A2A3-6E2FBE241C7F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddDigitsLC", "AddDigitsLC\AddDigitsLC.csproj", "{E26E8D11-6430-4F71-A665-7278A0DF5C10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddDigitsLC", "Week1-Basics\AddDigitsLC\AddDigitsLC.csproj", "{E26E8D11-6430-4F71-A665-7278A0DF5C10}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfAllPrimeNumbersBetween1AndN", "SumOfAllPrimeNumbersBetween1AndN\SumOfAllPrimeNumbersBetween1AndN.csproj", "{9979BDB2-92DA-41A0-A43A-D16915AE1733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfAllPrimeNumbersBetween1AndN", "Week1-Basics\SumOfAllPrimeNumbersBetween1AndN\SumOfAllPrimeNumbersBetween1AndN.csproj", "{9979BDB2-92DA-41A0-A43A-D16915AE1733}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquaresOfSortedArray", "SquaresOfSortedArray\SquaresOfSortedArray.csproj", "{AD8FDBAE-3C65-4330-81BC-9902B8A20673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquaresOfSortedArray", "Week1-Basics\SquaresOfSortedArray\SquaresOfSortedArray.csproj", "{AD8FDBAE-3C65-4330-81BC-9902B8A20673}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{ACBC190B-AD33-411E-841E-E0E4C5B39160}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindFirstandLastPositionofElementinSortedArray", "FindFirstandLastPositionofElementinSortedArray\FindFirstandLastPositionofElementinSortedArray.csproj", "{11D02A1A-E1EE-424C-83BD-304C22D36441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindFirstandLastPositionofElementinSortedArray", "Week2-Searching-Sorting\FindFirstandLastPositionofElementinSortedArray\FindFirstandLastPositionofElementinSortedArray.csproj", "{11D02A1A-E1EE-424C-83BD-304C22D36441}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchinRotatedSortedArrayII", "SearchinRotatedSortedArrayII\SearchinRotatedSortedArrayII.csproj", "{84437EDB-C24C-4ACB-8EBE-2B99BBDDF985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchinRotatedSortedArrayII", "Week2-Searching-Sorting\SearchinRotatedSortedArrayII\SearchinRotatedSortedArrayII.csproj", "{84437EDB-C24C-4ACB-8EBE-2B99BBDDF985}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMinimuminRotatedSortedArrayII", "FindMinimuminRotatedSortedArrayII\FindMinimuminRotatedSortedArrayII.csproj", "{35FE35A4-490D-4940-AA67-3ADCBEAF8EAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMinimuminRotatedSortedArrayII", "Week2-Searching-Sorting\FindMinimuminRotatedSortedArrayII\FindMinimuminRotatedSortedArrayII.csproj", "{35FE35A4-490D-4940-AA67-3ADCBEAF8EAC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPeakElement", "FindPeakElement\FindPeakElement.csproj", "{AB75F37F-4967-41FB-B9D8-93E4378D93C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPeakElement", "Week2-Searching-Sorting\FindPeakElement\FindPeakElement.csproj", "{AB75F37F-4967-41FB-B9D8-93E4378D93C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayDuplicates", "ArrayDuplicates\ArrayDuplicates.csproj", "{A5661A8D-4148-4958-A91C-22C59F701ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayDuplicates", "Week2-Searching-Sorting\ArrayDuplicates\ArrayDuplicates.csproj", "{A5661A8D-4148-4958-A91C-22C59F701ECE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleElementinaSortedArray", "SingleElementinaSortedArray\SingleElementinaSortedArray.csproj", "{82E04AEB-1F70-42E3-BA7D-135CB468E932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleElementinaSortedArray", "Week2-Searching-Sorting\SingleElementinaSortedArray\SingleElementinaSortedArray.csproj", "{82E04AEB-1F70-42E3-BA7D-135CB468E932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthSmallestElementInArray", "KthSmallestElementInArray\KthSmallestElementInArray.csproj", "{CD394AB8-B796-40C5-9298-EFF6E18713E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthSmallestElementInArray", "Week2-Searching-Sorting\KthSmallestElementInArray\KthSmallestElementInArray.csproj", "{CD394AB8-B796-40C5-9298-EFF6E18713E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
