@@ -1,0 +1,121 @@
+﻿namespace RomanToInteger
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string s = "IM";
+            Solution solution = new Solution();
+            Console.WriteLine(solution.RomanToInt(s));
+        }
+        public class Solution
+        {
+            public int RomanToInt(string s)
+            {
+                Dictionary<char, int> dic = new Dictionary<char, int>();
+                dic['I'] = 1;
+                dic['V'] = 5;
+                dic['X'] = 10;
+                dic['L'] = 50;
+                dic['C'] = 100;
+                dic['D'] = 500;
+                dic['M'] = 1000;
+
+                int sum = 0;
+
+                for (int i = s.Length - 1; i >= 0; i--)
+                {
+                    if (s[i] == 'V')
+                    {
+                        if(i == 0 || i > 0 && s[i - 1] != 'I')
+                        {
+                            sum = sum + 5;
+                            continue;
+                        }
+                        else
+                        {
+                            sum = sum + 4;
+                            i--;
+                            continue;
+                        }
+                    }
+                    else if (s[i] == 'X')
+                    {
+                        if (i == 0 || i > 0 && s[i - 1] != 'I')
+                        {
+                            sum = sum + 10;
+                            continue;
+                        }
+                        else
+                        {
+                            sum = sum + 9;
+                            i--;
+                            continue;
+                        }
+                    }
+                    else if (s[i] == 'L')
+                    {
+                        if (i == 0 || i > 0 && s[i - 1] != 'X')
+                        {
+                            sum = sum + 50;
+                            continue;
+                        }
+                        else
+                        {
+                            sum = sum + 40;
+                            i--;
+                            continue;
+                        }
+                    }
+                    else if (s[i] == 'C')
+                    {
+                        if (i == 0 || i > 0 && s[i - 1] != 'X')
+                        {
+                            sum = sum + 100;
+                            continue;
+                        }
+                        else
+                        {
+                            sum = sum + 90;
+                            i--;
+                            continue;
+                        }
+                    }
+                    else if (s[i] == 'D')
+                    {
+                        if (i == 0 || i > 0 && s[i - 1] != 'C')
+                        {
+                            sum = sum + 500;
+                            continue;
+                        }
+                        else
+                        {
+                            sum = sum + 400;
+                            i--;
+                            continue;
+                        }
+                    }
+                    else if (s[i] == 'M')
+                    {
+                        if (i == 0 || i > 0 && s[i - 1] != 'C')
+                        {
+                            sum = sum + 1000;
+                            continue;
+                        }
+                        else
+                        {
+                            sum = sum + 900;
+                            i--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        sum += dic[s[i]];
+                    }
+                }
+                return sum;
+            }
+        }
+    }
+}

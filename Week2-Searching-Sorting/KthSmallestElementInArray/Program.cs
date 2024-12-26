@@ -27,7 +27,6 @@ namespace KthSmallestElementInArray
             int k = 2;
             Solution solution = new Solution();
             Console.WriteLine(solution.FindKthSmallestElement(nums, k));
-            Console.ReadLine();
         }
         public class Solution
         {
