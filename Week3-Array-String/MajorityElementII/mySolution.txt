@@ -1,0 +1,44 @@
+﻿// This is not strictly O(1) space complexity
+
+public IList<int> MajorityElement(int[] nums)
+{
+    Dictionary<int, int> dic = new();
+
+    List<int> res = new();
+
+    foreach(int i in nums)
+    {
+        if (!dic.ContainsKey(i))
+        {
+            dic[i] = 0;
+        }
+        dic[i] += 1;
+
+        if(dic.Count == 3)
+        {
+            foreach(int key in dic.Keys)
+            {
+                dic[key] -= 1;
+                if (dic[key] == 0)
+                {
+                    dic.Remove(key);
+                }
+            }
+        }
+    }
+
+    int numCount = 0;
+
+    foreach(int i in dic.Keys)
+    {
+        foreach(int k in nums)
+        {
+            if (i == k) numCount++;
+        }
+
+        if ((numCount * 100) / nums.Length > 33) res.Add(i);
+        numCount = 0;
+    }
+
+    return res;
+}
