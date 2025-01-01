@@ -1,0 +1,43 @@
+﻿// This recursion depth grows linearly till n so for very large number program will hit recursion limit and through stackoverflow error.
+// Math.Abs() will not work for edge case int.MinValue which is -2147483648 and int.MaxValue is 2147483647
+// To Avoid this we can use long
+
+namespace Pow_X_N_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double x = 2; int n = -2;
+            Solution solution = new Solution();
+            Console.WriteLine(solution.MyPow(x,n));
+        }
+        public class Solution
+        {
+            public double MyPow(double x, int n)
+            {
+                int absN = Math.Abs(n);
+
+                if(n > 1)
+                {
+                    return Math.Round(MyPowRecuHelper(x, 1, absN), 5);
+                }
+
+                return (1 / Math.Round(MyPowRecuHelper(x, 1, absN), 5));
+            }
+
+            public double MyPowRecuHelper(double x, double sum, int n)
+            {
+
+                if(n == 0)
+                {
+                    return sum;
+                }
+
+                sum *=  x;
+
+                return MyPowRecuHelper(x, sum, n - 1);
+            } 
+        }
+    }
+}
