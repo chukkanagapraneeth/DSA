@@ -1,0 +1,38 @@
+﻿
+- Since I'm using tempList.Sum(), I got TLE issue. I changed it such that we subtract current index value with currentTarget
+
+public class Solution {
+    public IList<IList<int>> CombinationSum2(int[] candidates, int target)
+    {
+        Array.Sort(candidates);
+        List<IList<int>> result = new();
+
+        List<int> tempList = new();
+
+        void backTrack(int start, List<int> tempList)
+        {
+            int sum = tempList.Sum();
+            if(sum == target)
+            {
+                result.Add(new List<int>(tempList));
+                return;
+            }
+
+            for(int i = start; i < candidates.Length; i++)
+            {
+                if(i > start && candidates[i] == candidates[i - 1])
+                {
+                    continue;
+                }
+
+                tempList.Add(candidates[i]);
+                backTrack(i + 1, tempList);
+                tempList.RemoveAt(tempList.Count - 1);
+            }
+        }
+
+        backTrack(0, tempList);
+
+        return result;
+    }
+}
