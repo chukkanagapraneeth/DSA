@@ -103,6 +103,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfWaysToSplitArray", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations", "Week4-Recursion-Backtracking\Permutations\Permutations.csproj", "{ED903AAF-0234-4108-A199-61ECA0E76D6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutationsII", "Week4-Recursion-Backtracking\PermutationsII\PermutationsII.csproj", "{BF54C3B9-5524-4216-88F4-BEB715EDE026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMirrorScoreOfAString", "Week3-Array-String\FindMirrorScoreOfAString\FindMirrorScoreOfAString.csproj", "{FA2B1EB7-AA9F-4D03-A45B-CE352DB937CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutationSequence", "Week4-Recursion-Backtracking\PermutationSequence\PermutationSequence.csproj", "{83152F29-C3B8-476B-9F59-54327688F2D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -293,6 +299,18 @@ Global
 		{ED903AAF-0234-4108-A199-61ECA0E76D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED903AAF-0234-4108-A199-61ECA0E76D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED903AAF-0234-4108-A199-61ECA0E76D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF54C3B9-5524-4216-88F4-BEB715EDE026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF54C3B9-5524-4216-88F4-BEB715EDE026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF54C3B9-5524-4216-88F4-BEB715EDE026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF54C3B9-5524-4216-88F4-BEB715EDE026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2B1EB7-AA9F-4D03-A45B-CE352DB937CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2B1EB7-AA9F-4D03-A45B-CE352DB937CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2B1EB7-AA9F-4D03-A45B-CE352DB937CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2B1EB7-AA9F-4D03-A45B-CE352DB937CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83152F29-C3B8-476B-9F59-54327688F2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83152F29-C3B8-476B-9F59-54327688F2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83152F29-C3B8-476B-9F59-54327688F2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83152F29-C3B8-476B-9F59-54327688F2D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -344,6 +362,9 @@ Global
 		{F437B617-E886-4B40-AC1B-C68D2C126813} = {A5C245F1-0CA7-48C6-88DE-456299D53F66}
 		{0914DADE-A319-4128-B264-F7D6980828BF} = {A9951ED2-3E9B-4B9E-88C5-E6A9514F8F8A}
 		{ED903AAF-0234-4108-A199-61ECA0E76D6E} = {A5C245F1-0CA7-48C6-88DE-456299D53F66}
+		{BF54C3B9-5524-4216-88F4-BEB715EDE026} = {A5C245F1-0CA7-48C6-88DE-456299D53F66}
+		{FA2B1EB7-AA9F-4D03-A45B-CE352DB937CF} = {A9951ED2-3E9B-4B9E-88C5-E6A9514F8F8A}
+		{83152F29-C3B8-476B-9F59-54327688F2D9} = {A5C245F1-0CA7-48C6-88DE-456299D53F66}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC454811-3FC8-4DAA-882A-87CF627BB3B9}
