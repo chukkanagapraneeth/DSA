@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Week4-Recursion-Backtracking/PermutationSequence/PermutationSequence.csproj
+/Week4-Recursion-Backtracking/PermutationSequence/Program.cs
