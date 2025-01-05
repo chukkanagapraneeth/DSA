@@ -1,4 +1,6 @@
-﻿namespace PermutationSequence
+﻿// TLE - Need to optimize
+
+namespace PermutationSequence
 {
     internal class Program
     {
