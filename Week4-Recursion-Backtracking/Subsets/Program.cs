@@ -13,7 +13,9 @@ namespace Subsets
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int[] nums = [1, 2, 3, 4];
+            Solution solution = new Solution();
+            var x = solution.Subsets(nums);
         }
         public class Solution
         {
